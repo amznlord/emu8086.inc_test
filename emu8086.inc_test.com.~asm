@@ -1,0 +1,14 @@
+include emu8086.inc ;Library of common functions
+
+ORG 100h
+
+PRINT 'Hello World!'
+
+GOTOXY 10,5
+
+PUTC 65 ; 65 - In ASCII 'A'
+PUTC 'B'
+
+RET
+END
+
